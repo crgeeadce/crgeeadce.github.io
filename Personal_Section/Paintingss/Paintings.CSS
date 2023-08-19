@@ -290,6 +290,7 @@ body{
                 #showcase{
                     background-image: url(BR_5.jpg);
                     background-position: center right;
+                    background-size: cover;
                     min-height: 300px;
                     margin-bottom: 30px;
                     text-align: center;

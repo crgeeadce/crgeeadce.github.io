@@ -1,24 +1,24 @@
 .wrapper{
     display: grid;    
-    min-width: 1600px;
+    /*min-width: 1600px;*/
     grid-template-columns: repeat(3,1fr);
     align-self: center;
     padding: 50px 0px 50px 0px;
     
-    /*border: solid 10px white;     */
+    border: solid 10px white;     /**/
 }
 
 .nested_0{
     display: grid;    
-    min-width: 534px;
+    min-width: 327px;
     grid-template-columns: repeat(3,1fr);
     align-self: center;
 
-    /*border: solid 10px white;     */
+    border: solid 10px white;     /**/
 }
 
 #navbar{
-    min-width: 1600px;
+    /*min-width: 1600px;*/
     background-color: blue;
     color: thistle;
 }
@@ -47,11 +47,11 @@ div.Container{
 }
 
 div.Container1{
-    min-width: 1600px;
+    /*min-width: 1600px;*/
     margin: auto;
     overflow: hidden;
 
-    /*border: solid 10px white;     */
+    border: solid 10px white;     /**/
 }
 
 #main-header{
@@ -72,11 +72,11 @@ body{
 }
 
 #showcase{
-    min-width: 1600px;
+    /*min-width: 1600px;*/
     background-image: url(BR_5.jpg);
     background-color: royalblue;
     background-position: center; /**/
-    background-size: auto;   
+    background-size: cover;   
     color: salmon;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;

@@ -1,6 +1,6 @@
 .wrapper{
     display: grid;    
-    /*min-width: 1600px;*/
+    min-width: 1000px;      /**/
     grid-template-columns: repeat(3,1fr);
     align-self: center;
     padding: 50px 0px 50px 0px;
@@ -18,7 +18,7 @@
 }
 
 #navbar{
-    /*min-width: 1600px;*/
+    min-width: 1000px;      /**/
     background-color: blue;
     color: thistle;
 }
@@ -47,7 +47,7 @@ div.Container{
 }
 
 div.Container1{
-    /*min-width: 1600px;*/
+    min-width: 1000px;      /**/
     margin: auto;
     overflow: hidden;
 

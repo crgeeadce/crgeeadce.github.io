@@ -1,143 +1,82 @@
-.wrapper{
-    display: grid;
-    /* grid-template-columns: 1fr 2fr 1fr;*/
-    /* grid-template-columns: 1fr 1fr 1fr;*/
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 1em;
-    /*grid-auto-rows: 100px;*/
-   
-    grid-auto-rows: minmax(100px, auto);
-    grid-auto-columns: minmax(100px, auto);
+body{
+    min-width: 1800px;      
+    background-color: seagreen;
+    background-image: url(BR_2.jpg);
 
-   
-    display: flex;    /**/
-    justify-content: center;
-    align-items: center;
-
-    align-self: center;
-
-
-/*    margin-top: 190px;
-*/
-
-/*    border: solid 1px black;    */
-}
-
-.wrapper div{
-    margin-top: auto;
-
-    padding: 1em;
-    width: 80%;
-
-    align-self: center;
-
-/*    border: solid 1px black;    */
-}
-/*
-.wrapper div:nth-child(odd){
-    background: white;
-}
-*/
-
-.wrapper .nested{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    grid-auto-rows: 70px;
-    grid-gap: 1em;  
+    color: salmon;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.6em;
+    margin: 0;
+    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
     
-    box-sizing: border-box;
-
-    align-self: center;
-
-
-    margin-top: 190px;
-
     /*
-    align-self: center;
+    max-width: 1000px;
+    background-position: center; 
+    background-image: url(BR_2.jpg);
+    background-color: royalblue;
+    background-position: top; 
+    background-size: auto;   
+
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    min-height: 300px;
+    border: solid 10px yellowgreen;      
+    */
+}
+div.Container_All{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+    
+    /*
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    min-height: 300px;
+    border: solid 10px white;
     */
 }
 
-.nested div{
-/*    background: indigo; */
+header{
+    color: salmon;
+    min-width: 1800px;
 
+    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+        
 
-    border: solid 1px black;   
-
-/*
-
-    border: solid 1px black;    
-
-      padding: 1em;
-         
-    box-sizing: border-box;
-    height: 300px;
-    width: 120px;  
-*/  
-    align-self: center;
+    /*
+    display: grid;
+    grid-template-columns: repeat(3, 333px);
+    background-color: purple;    
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    border: solid 10px white; 
+    */
 }
 
-.wrapper .nested_0 div{
-    /*    background: indigo; */
-    
-    
-    border: solid 1px black;
-    
+div.Container_Header{  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+     
     /*
-    
-        border: solid 1px black;    
-    
-          padding: 1em;
-             
-        box-sizing: border-box;
-        height: 300px;
-        width: 120px;  
-    */  
-        align-self: center;
-    }
-
-/*
-    .wrapper .nested_0{ 
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        grid-auto-rows: 70px;
-        grid-gap: 1em;  
-        
-        box-sizing: border-box;
-    
-        align-self: center;
-    
-    
-        margin-top: 190px;
-
-    }
-*/
-
-    
-    .wrapper .nested_0{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        grid-auto-rows: 70px;
-        grid-gap: 1em;  
-        
-        box-sizing: border-box;
-    
-        align-self: center;
-
-
-        display: flex;    /**/
-        justify-content: center;
-        align-items: center;
-    
-        align-self: center;
-
-    }
-.wrapper .nested_0 img{
-    height: 100;
+    background-color: purple;
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    min-height: 300px;
+    border: solid 10px white;   
+    */
 }
 
 #navbar{
+    min-width: 1800px;
     background-color: blue;
     color: thistle;
+
+
+    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+    /*
+
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+    */
 }
 
 #navbar ul{
@@ -153,152 +92,181 @@
 #navbar a{
     color: salmon;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
     padding-right: 15px;
 }
 
-.Container{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
+div.Container_Navbar{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: blue;
 
-#main-header{
-    background-color: seagreen;
-    color: snow;
-}
-
-
-body{
+    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
     
-    background-image: url(BR_2.jpg);
-/*    background-size: cover;   */
-    background-color: royalblue;
-    background-position: top; /**/
-    background-size: auto;   
+    /*
 
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    border: solid 10px white;
+    min-height: 300px;    
+    */
+}
+
+
+
+div.Container_All_Showcase{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+
+    background-image: url(BR_5.jpg); 
+
+    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+    
+    /*
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    min-height: 300px;
+    border: solid 10px white;
+    */
+}
+
+
+div.Container_Showcase{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+       
+    /*
+    background-color: purple;
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    border: solid 10px peru;
+    min-height: 300px;    
+    */
+}
+
+div.Container1{
+    min-width: 1800px;      /**/
+    
+
+
+    margin: auto;
+    overflow: hidden;
+    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+    
+    /*
+    background-image: url(BR_5.jpg); 
+    max-width: 1000px;
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    border: solid 10px purple;
+    */
+
+}
+
+#showcase{
+    min-width: 1800px;      /**/
+    
+
+    background-position: center; /**/
+    background-size: cover;   
     color: salmon;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6em;
     margin: 0;
-}
-
-.wrapper .nested .image_1{
-    align-self: center;
-
-
-}
-
-.wrapper .nested .image_1 img{
-/*    
-    height: 100;
-    width: 100;
-
-    border-radius: 50%;
-*/
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-    rotate: 180deg;
-
-}
-
-.wrapper .nested .image_2 img{
-    /*    
-        height: 100;
-        width: 100;
-    
-        border-radius: 50%;
+    text-align: center;
+    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+       
+    /*
+    max-width: 1000px;
+    background-image: url(BR_5.jpg);    
+    background-color: purple;   
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    border: solid 10px red; 
     */
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+
+}
+
+#showcase h1{
+    color: black;
+    font-size: 40px;
+    line-height: 1.6em;
+    padding-top: 30px;
+    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+    /*
     
-        rotate: 0deg;
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     
-    }
+    */
+}
 
-    .wrapper .nested .image_3 img{
-        /*    
-            height: 100;
-            width: 100;
-        
-            border-radius: 50%;
-        */
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        
-            rotate: 180deg;
-        
-        }
-
-
-        .wrapper .nested_0 .image_1{
-            align-self: center;
-
-        
-        }
-        
-        .wrapper .nested_0 .image_1 img{
-        /*    
-            height: 100;
-            width: 100;
-        
-            border-radius: 50%;
-        */
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        
-            /*rotate: 180deg;*/
-        
-        }
-        
-        .wrapper .nested_0 .image_2 img{
-            /*    
-                height: 100;
-                width: 100;
-            
-                border-radius: 50%;
-            */
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            
-            
-            }
-        
-            .wrapper .nested_0 .image_3 img{
-                /*    
-                    height: 100;
-                    width: 100;
-                
-                    border-radius: 50%;
-                */
-                    display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                
-                    /*rotate: 180deg;*/
-                
-                }
+div.Container_Content{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+    
+    
+    /*
+    background-color: purple;
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    border: solid 10px white;
+    min-height: 300px;
+    */
+}
 
 
-                #showcase{
-                    background-image: url(BR_5.jpg);
-                    background-position: center right;
-                    min-height: 300px;
-                    margin-bottom: 30px;
-                    text-align: center;
-                }
-                
-                #showcase h1{
-                    color: black;
-                    font-size: 27px;
-                    line-height: 1.6em;
-                    padding-top: 30px;
-                }
+
+div.Container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+        
+    /*
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    border: solid 10px red; 
+    */
+}
+
+.wrapper{
+    min-width: 1800px; 
+
+    display: grid;    
+    grid-template-columns: repeat(3, 1fr);
+    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+    
+    /*
+    
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    border: solid 10px white;
+    */
+}
+
+.nested_0{
+    display: grid;    
+    min-width: 327px;
+    grid-template-columns: repeat(3, 1fr);
+    align-self: center;
+    padding-top: 50px;
+    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+    
+    /*
+    
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    border: solid 10px red;
+    */
+}
+
+
+
+
+
+
+

@@ -1,92 +1,63 @@
-.wrapper{
-    display: grid;    
-    min-width: 1600px;
-    grid-template-columns: repeat(2,1fr);
-    align-self: center;
-    padding: 50px 0px 50px 0px;
 
-    /*border: solid 10px white;     */
+body{
+    background-color: seagreen;
+    background-image: url(BR_2.jpg);
+    background-position: center;
+    background-size:contain;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.Container_Center{
+    display: flex;
+    justify-content: center;
+}
+div.Container_Right{
+    display: flex;
+    justify-content: right;
+}
+div.Container_Left{
+    display: flex;
+    justify-content: left;
 }
 
-.nested_0{
-    display: grid;    
-    min-width: 800px;
-    grid-template-columns: repeat(3,1fr);
-    align-self: center;
+header{
+    color: salmon;
 
-    /*border: solid 10px white;     */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
 }
-
-#navbar{
-    min-width: 1600px;
+div.Container_Navbar{
     background-color: blue;
-    color: thistle;
+    width: 100vw;
 }
-
-#navbar ul{
-    padding: 0;
-    list-style: none;
-    list-style: square;
-}
-
 #navbar li{
     display: inline;
+    padding-left: 2.5vw;
 }
-
 #navbar a{
     color: salmon;
+
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    font-size: 18px;
-    padding-right: 15px;
+    font-weight: bold;
+    font-size: 2.5vw;
 }
-div.Container{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
+div.Container_Showcase{
+    background-position: center;
+    background-size: auto;  
+    background-size: cover;
+    background-image: url(BR_1.jpg); 
 
-div.Container1{
-    min-width: 1600px;
-    margin: auto;
-    overflow: hidden;
-
-    /*border: solid 10px white;     */
-}
-
-#main-header{
-    background-color: seagreen;
-    color: snow;
-}
-
-body{    
-    background-image: url(BR_2.jpg);
-    background-color: royalblue;
-    background-position: top; /**/
-    background-size: auto;   
-    color: salmon;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 1.6em;
-    margin: 0;
-}
-
-#showcase{
-    min-width: 1600px;
-    background-image: url(BR_1.jpg);
-    background-color: royalblue;
-    background-position: center; /**/
-    background-size: auto;   
-    color: salmon;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 1.6em;
-    margin: 0;
     text-align: center;
+    font-size: 1.5vw;
 }
 
-#showcase h1{
-    color: black;
-    font-size: 50px;
-    line-height: 1.6em;
-    padding-top: 30px;
+div.Division_A{
+    padding-top: 10vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+img.image_1{
+    height: 15vw;
+    width: 30vw;
 }

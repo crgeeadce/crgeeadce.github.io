@@ -1,265 +1,63 @@
+
 body{
-    min-width: 1800px;      
     background-color: seagreen;
     background-image: url(BR_2.jpg);
-
-    color: salmon;
+    background-position: center;
+    background-size:contain;   
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    line-height: 1.6em;
-    margin: 0;
-    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
-    
-    /*
-    max-width: 1000px;
-    background-position: center; 
-    background-image: url(BR_2.jpg);
-    background-color: royalblue;
-    background-position: top; 
-    background-size: auto;   
-
-    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-    min-height: 300px;
-    border: solid 10px yellowgreen;      
-    */
 }
-div.Container_All{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
-    
-    /*
-    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-    min-height: 300px;
-    border: solid 10px white;
-    */
+div.Container_Center{
+    display: flex;
+    justify-content: center;
+}
+div.Container_Right{
+    display: flex;
+    justify-content: right;
+}
+div.Container_Left{
+    display: flex;
+    justify-content: left;
 }
 
 header{
     color: salmon;
-    min-width: 1800px;
 
-    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
-    
-
-    /*
-    display: grid;
-    grid-template-columns: repeat(3, 333px);
-    background-color: purple;    
-    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-    border: solid 10px white;     
-    */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
 }
-
-div.Container_Header{  
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
-    
-    /*
-    background-color: purple;
-    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-    min-height: 300px;
-    border: solid 10px white;   
-    */
-}
-
-#navbar{
-    min-width: 1800px;
+div.Container_Navbar{
     background-color: blue;
-    color: thistle;
-
-
-    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
-
-    /*
-
-    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
-    */
+    width: 100vw;
 }
-
-#navbar ul{
-    padding: 0;
-    list-style: none;
-    list-style: square;
-}
-
 #navbar li{
     display: inline;
+    padding-left: 2.5vw;
 }
-
 #navbar a{
     color: salmon;
-    text-decoration: none;
-    font-size: 25px;
-    padding-right: 15px;
-}
 
-div.Container_Navbar{
-    
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    background-color: blue;
-
-    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
-
-    
-    /*
-
-    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-    border: solid 10px white;
-    min-height: 300px;    
-    */
-}
-
-
-
-div.Container_All_Showcase{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-
-    background-image: url(BR_5.jpg); 
-
-    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
-    
-    /*
-    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-    min-height: 300px;
-    border: solid 10px white;
-    */
-}
-
-
-div.Container_Showcase{
-    
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-
-    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
-
-        
-    /*
-    background-color: purple;
-    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-    border: solid 10px peru;
-    min-height: 300px;    
-    */
-}
-
-div.Container1{
-    min-width: 1800px;      /**/
-    
-
-
-    margin: auto;
-    overflow: hidden;
-    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
-    
-    /*
-    background-image: url(BR_5.jpg); 
-    max-width: 1000px;
-    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-    border: solid 10px purple;
-    */
-
-}
-
-#showcase{
-    min-width: 1800px;      /**/
-    
-
-    background-position: center; /**/
-    background-size: cover;   
-    color: salmon;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 1.6em;
-    margin: 0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+div.Container_Showcase{
+    background-position: center;
+    background-size: auto;  
+    background-size: cover;
+    background-image: url(BR_5.jpg); 
+
     text-align: center;
-    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
-      
-    /*
-    max-width: 1000px;
-    background-image: url(BR_5.jpg);    
-    background-color: purple;   
-    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-    border: solid 10px red;  
-    */
-
+    font-size: 1.5vw;
 }
 
-#showcase h1{
-    color: black;
-    font-size: 50px;
-    line-height: 1.6em;
-    padding-top: 30px;
-    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
-
-    /*
-    
-    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-    
-    */
+div.Division_A{
+    padding-top: 10vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
-div.Container_Content{
-    
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
-    
-    
-    /*
-    background-color: purple;
-    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-    border: solid 10px white;
-    min-height: 300px;
-    */
-}
-
-
-
-div.Container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
-        
-    /*
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-    border: solid 10px red; 
-    */
-}
-
-.wrapper{
-    min-width: 1800px; 
-
-    display: grid;    
-    grid-template-columns: repeat(3, 1fr);
-    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
-    
-    /*
-    
-    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-    border: solid 10px white;
-    */
-}
-
-.nested_0{
-    display: grid;    
-    min-width: 327px;
-    grid-template-columns: repeat(3, 1fr);
-    align-self: center;
-    padding-top: 50px;
-    /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
-    
-    /*
-    
-    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-    border: solid 10px red;
-    */
+img.image_1{
+    height: 15vw;
+    width: 30vw;
 }

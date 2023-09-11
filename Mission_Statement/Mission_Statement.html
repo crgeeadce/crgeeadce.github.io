@@ -1,31 +1,63 @@
-<!DOCTYPE html>
-<html>
-    <body>
-        <head>
-            <title>Mission Statement</title>
-            <link rel="stylesheet" type="text/css" href="Mission_Statement.CSS">
-        </head>
-        <div class="Container_Left">
-            <header id="main_header">
-                <h1>Mission Statement</h1>
-            </header>
-        </div>
 
-        <div class="Container_Left">
-            <div class="Container_Navbar">
-                <nav id="navbar" >
-                    <li><a href="../Mission_Statement/Mission_Statement.html">Mission Statement</a></li>
-                    <li><a href="../Resume/Chad_Garner_Hybrid_3.2.pdf" target="_blank">Resume</a></li>
-                    <li><a href="../Work_Samples/ws.html">Work Samples</a></li>
-                    <li><a href="../Personal_Section/Personal_Section.html">Personal Section</a></li>       
-                </nav>
-            </div>
-        </div>
+body{
+    background-color: seagreen;
+    background-image: url(BR_2.jpg);
+    background-position: center;
+    background-size:contain;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.Container_Center{
+    display: flex;
+    justify-content: center;
+}
+div.Container_Right{
+    display: flex;
+    justify-content: right;
+}
+div.Container_Left{
+    display: flex;
+    justify-content: left;
+}
 
-        <div class="Container_Center">
-            <div class="Container_Showcase">
-                <h1 class="h1_container"> "I am a verry analytical person who solves problems through the use of logical thought. Because of this I am able to analyze various electronic devices verry accurately to locate any problems that may be present in a circuit or system. I am also verry accurate when it comes to solving these types of problems. These skills will be a credit to your company in the areas of product testing, trouble shooting, and repairing any problems that may occur within an electronic system." </h1>
-            </div>
-        </div>
-    </body>
-</html>
+header{
+    color: salmon;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+}
+div.Container_Navbar{
+    background-color: blue;
+    width: 100vw;
+}
+#navbar li{
+    display: inline;
+    padding-left: 2.5vw;
+}
+#navbar a{
+    color: salmon;
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+div.Container_Showcase{
+    background-position: center;
+    background-size: auto;  
+    background-size: cover;
+    background-image: url(BR_5.jpg); 
+
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+div.Division_A{
+    padding-top: 10vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+img.image_1{
+    height: 15vw;
+    width: 30vw;
+}

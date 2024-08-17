@@ -2,8 +2,12 @@
 body{
     background-color: seagreen;
     background-image: url(BR_2.jpg);
-    background-position: center;
-    background-size:contain;   
+
+    background-position: top center;/*
+    background-position: center;*/
+    
+    background-size: 100vw 100vh/*
+    background-size:contain;*/
     font-family: Arial, Helvetica, sans-serif;
 }
 div.Container_Center{

@@ -3,7 +3,7 @@ body{
     background-color: seagreen;
     background-image: url(BR_2.jpg);
 
-    background-position: top center;/*
+    background-position: 0vw 0vw;/*
     background-position: center;*/
     
     background-size: 100vw 100vh/*

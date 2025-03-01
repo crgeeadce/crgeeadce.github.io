@@ -58,7 +58,7 @@ div.Container_Showcase{
     background: linear-gradient(335deg, rgba(255,140,107,1) 0%, rgba(255,228,168,1) 100%);
     background-image: url(BR_22_D.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-size: 101vw 303vh;
     height: 300vh;
     width: 100vw;
